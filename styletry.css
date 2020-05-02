@@ -702,4 +702,107 @@ footer a {
         .menudetail {
             margin: auto;
         }
+     
+     
+     
+     
+     
+     
+     .chic-left-entree {
+    background: url(images/chic-left-entree.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.chic-right-entree {
+    background: url(images/chic-right-entree.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.chic-left-main {
+    background: url(images/chic-left-main.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.chic-right-main {
+    background: url(images/chic-right-main.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.chic-left-dessert {
+    background: url(images/chic-left-dessert.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.chic-right-dessert {
+    background: url(images/chic-right-dessert.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.delice__mainwrapp .menudetail__header {
+    width: 20vw;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.delice-left-entree {
+    background: url(images/delice-left-entree.png) no-repeat;
+    background-size: cover;
+
+}
+
+.delice-right-entree {
+    background: url(images/delice-right-entree.png) no-repeat;
+    background-size: cover;
+}
+
+.delice-left-main {
+    background: url(images/delice-left-main.png) no-repeat;
+    background-size: cover;
+}
+
+.delice-right-main {
+    background: url(images/delice-right-main.png) no-repeat;
+    background-size: cover;
+}
+
+.delice-left-dessert {
+    background: url(images/delice-left-dessert.png) no-repeat;
+    background-size: cover;
+}
+
+.delice-right-dessert {
+    background: url(images/delice-right-dessert.png) no-repeat;
+    background-size: cover;
+}
+
+.palette__mainwrapp .menudetail__header {
+    width: 20vw;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.palette-left {
+    background: url(images/palette-left.png) no-repeat;
+    background-size: contain;
+}
+
+.palette-right {
+    background: url(images/palette-right.png) no-repeat;
+    background-size: contain;
+}
+
+     
+     
+     
+     
+     
+     
     }
