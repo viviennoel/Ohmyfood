@@ -95,6 +95,47 @@ article {
         }
 }
 
+@-webkit-keyframes appears { 
+        0% {
+            opacity: 0;
+        }
+
+        80% {
+            opacity:1;
+        }
+
+        100% {
+            opacity: 0;
+        }}
+@-moz-keyframes appears { 
+        0% {
+            opacity: 0;
+        }
+
+        80% {
+            opacity:1;
+        }
+
+        100% {
+            opacity: 0;
+        }}
+@-o-keyframes appears { 
+        0% {
+            opacity: 0;
+        }
+
+        80% {
+            opacity:1;
+        }
+
+        100% {
+            opacity: 0;
+        }}
+
+
+
+
+
 .menuhome__note {
     background-color: #f3c5c5;
     font-family: 'Satisfy', serif;
@@ -213,6 +254,71 @@ article {
         }
     }
 
+@-webkit-keyframes wiggle { 
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-5px);
+        }
+
+        50% {
+            transform: translateX(0);
+        }
+
+        75% {
+            transform: translateX(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }}
+@-moz-keyframes wiggle { 
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-5px);
+        }
+
+        50% {
+            transform: translateX(0);
+        }
+
+        75% {
+            transform: translateX(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }}
+@-o-keyframes wiggle { 
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-5px);
+        }
+
+        50% {
+            transform: translateX(0);
+        }
+
+        75% {
+            transform: translateX(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }}
+
+
+
+
+
     @keyframes zoomin {
         0% {
             transform: scale(1);
@@ -228,6 +334,53 @@ article {
             opacity: 1;
         }
     }
+
+@-webkit-keyframes zoomin { 
+        0% {
+            transform: scale(1);
+            opacity: 0.3;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 1;
+        }}
+@-moz-keyframes zoomin { 
+        0% {
+            transform: scale(1);
+            opacity: 0.3;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 1;
+        }}
+@-o-keyframes zoomin { 
+        0% {
+            transform: scale(1);
+            opacity: 0.3;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 1;
+        }}
+
+
+
+
 
     .menuhome__noteenchantee {
     color:#000000;
@@ -606,6 +759,38 @@ footer a {
     }
 }
 
+@-webkit-keyframes animateddots { 
+    0% {
+        transform:translateY(0) scale(1);
+      }
+    50% {
+        transform: translateY(15px) scale(0.2);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }}
+@-moz-keyframes animateddots { 
+    0% {
+        transform:translateY(0) scale(1);
+      }
+    50% {
+        transform: translateY(15px) scale(0.2);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }}
+@-o-keyframes animateddots { 
+    0% {
+        transform:translateY(0) scale(1);
+      }
+    50% {
+        transform: translateY(15px) scale(0.2);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }}
+
+
 @keyframes animateddotsopacity {
     0% {
         opacity:0;
@@ -614,6 +799,28 @@ footer a {
         opacity:1;
     }
 }
+
+@-webkit-keyframes animateddotsopacity {     
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    } }
+@-moz-keyframes animateddotsopacity {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }}
+@-o-keyframes animateddotsopacity {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }}
 
 .underlinespan {
     position: absolute;
@@ -654,6 +861,18 @@ footer a {
 }
 
 @keyframes underline {
+    0% {width:0;opacity:0;}
+    100% {width:20%;opacity:1;}
+}
+@-webkit-keyframes underline {
+    0% {width:0;opacity:0;}
+    100% {width:20%;opacity:1;}
+}
+@-moz-keyframes underline {
+    0% {width:0;opacity:0;}
+    100% {width:20%;opacity:1;}
+}
+@-o-keyframes underline {
     0% {width:0;opacity:0;}
     100% {width:20%;opacity:1;}
 }
