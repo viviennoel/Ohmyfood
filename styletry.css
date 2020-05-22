@@ -661,22 +661,22 @@ footer a {
         width:130px;
         height:230px;
     }
+    
+     .menuhome__animation:hover .menuhome__animation-content {
+         animation: zoomin 1s ease-in-out 0.3s forwards;
+        }
+
+     .menuhome__animation-content {
+          opacity: 0.3;
+          animation: none;
+        }
 }
 
  @media only screen and (min-width:1100px) {
         .menuhome {
             margin-top: 50px;
-            width: 20vw;
-            height: 50vh;
-        }
-
-        .menuhome__animation:hover .menuhome__animation-content {
-            animation: zoomin 1s ease-in-out 0.3s forwards;
-        }
-
-        .menuhome__animation-content {
-            opacity: 0.3;
-            animation: none;
+            width: 250px;
+            height: 350px;
         }
 
     .menuhome__note .menuhome__animation-content {
