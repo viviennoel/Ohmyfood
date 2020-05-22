@@ -69,20 +69,16 @@ article {
     box-shadow: rgb(128, 128, 128) 0px 0px 2px 2px;
 }
 
-#labelnext:hover {
-    display:none;
-}
-
 #dot1 {
-    animation: appears 3s cubic-bezier(0.1,0.35,0.9,0.65) infinite;
+    animation: appears 3s ease infinite;
 }
 
 #dot2 {
-    animation: appears 3s cubic-bezier(0.1,0.35,0.9,0.65) 1s infinite;
+    animation: appears 3s ease 1s infinite;
 }
 
 #dot3 {
-    animation: appears 3s cubic-bezier(0.1,0.35,0.9,0.65) 2s infinite;
+    animation: appears 3s ease 2s infinite;
 }
 
 @keyframes appears {
