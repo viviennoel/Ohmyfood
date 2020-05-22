@@ -14,33 +14,25 @@
     font-style: normal;
 }
 
-:root {
-    --main-color: #699771;
-    --secondary-color: #b6ff00;
-    --third-color: #ffd800;
-    --main-police: MainPolice;
-    --secondary-police: SecondaryPolice;
-}
-
     /*VARIABLES*/
     /*BODY GENERAL*/
 body {
     margin: 0 !important;
     font-size: 14px;
     background-color: rgb(255, 255, 255);
-    color: var(--main-color);
+    color: #699771;
     height: 100vh;
     vertical-align: central;
     font-family: Arial;
 }
 
 header {
-    background-color: var(--main-color);
+    background-color: #699771;
     vertical-align:middle;
     text-align: center;
     height:75px;
     padding-top:10px;
-    color:var(--third-color)
+    color:#ffd800;
 
 }
 
@@ -435,7 +427,7 @@ article {
 }
 
 article a {
-    color: var(--main-color);
+    color: #699771;
     text-decoration: none;
 
 }
@@ -451,26 +443,26 @@ article a {
 
 
 .button {
-    background-color: var(--main-color);
+    background-color: #699771;
     border-radius: 30px;
     padding: 5px 15px 5px 15px;
     font-family: Arial;
     font-weight: 400;
     font-size: 18px;
-    color: var(--third-color);
+    color:#ffd800;
     margin-top: 50px;
     border:none;
 }
 
 .footer__button {
-    background-color: var(--main-color);
+    background-color: #699771;
     border-radius: 30px;
     padding: 10px;
     font-family: "Arial";
     font-weight: 900;
     font-size: 15px;
     font-weight:400;
-    color: var(--third-color);
+    color:#ffd800;
     margin-top: 0;
     padding-top:18px;
     border: none;
@@ -481,7 +473,7 @@ article a {
 }
 
 footer {
-    background-color: var(--main-color);
+    background-color: #699771;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1052,11 +1044,4 @@ footer a {
     background: url(images/palette-right.png) no-repeat;
     background-size: contain;
 }
-
-     
-     
-     
-     
-     
-     
-    }
+}
