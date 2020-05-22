@@ -1,4 +1,4 @@
-﻿/*The fonts used for this CV*/
+/*The fonts used for this CV*/
 @font-face {
     font-family: 'MainPolice';
     src: url('Polices/aaargh-webfont.woff2') format('woff2'), 
@@ -67,7 +67,22 @@ article {
     font-family: Arial;
     font-weight: 900;
     box-shadow: rgb(128, 128, 128) 0px 0px 2px 2px;
+}
 
+#labelnext:hover {
+    display:none;
+}
+
+#labelnext:hover #dot1 {
+    animation: animateddots 3s cubic-bezier(0.1,0.35,0.9,0.65) infinite, animateddotsopacity 2s ease-out 1s forwards;
+}
+
+#labelnext:hover #dot2 {
+    animation: animateddots 3s cubic-bezier(0.1,0.35,0.9,0.65) 0.5s infinite, animateddotsopacity 2s ease-out 1s forwards;
+}
+
+#labelnext:hover #dot3 {
+    animation: animateddots 3s cubic-bezier(0.1,0.35,0.9,0.65) 1s infinite, animateddotsopacity 2s ease-out 1s forwards;
 }
 
 .menuhome__note {
