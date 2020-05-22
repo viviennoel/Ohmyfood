@@ -883,6 +883,15 @@ footer a {
     article {
         width:80vw;
     }
+ 
+     .menuhome__animation:hover .menuhome__animation-content {
+         animation: zoomin 1s ease-in-out 0.3s forwards;
+        }
+
+     .menuhome__animation-content {
+          opacity: 0.3;
+          animation: none;
+        }
 }
 
 @media only screen and (min-width:700px) {
