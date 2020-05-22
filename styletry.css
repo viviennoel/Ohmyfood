@@ -73,16 +73,30 @@ article {
     display:none;
 }
 
-#labelnext:hover #dot1 {
-    animation: animateddots 3s cubic-bezier(0.1,0.35,0.9,0.65) infinite, animateddotsopacity 2s ease-out 1s forwards;
+#dot1 {
+    animation: appears 3s cubic-bezier(0.1,0.35,0.9,0.65) infinite;
 }
 
-#labelnext:hover #dot2 {
-    animation: animateddots 3s cubic-bezier(0.1,0.35,0.9,0.65) 0.5s infinite, animateddotsopacity 2s ease-out 1s forwards;
+#dot2 {
+    animation: appears 3s cubic-bezier(0.1,0.35,0.9,0.65) 1s infinite;
 }
 
-#labelnext:hover #dot3 {
-    animation: animateddots 3s cubic-bezier(0.1,0.35,0.9,0.65) 1s infinite, animateddotsopacity 2s ease-out 1s forwards;
+#dot3 {
+    animation: appears 3s cubic-bezier(0.1,0.35,0.9,0.65) 2s infinite;
+}
+
+@keyframes appears {
+        0% {
+            opacity: 0;
+        }
+
+        80% {
+            opacity:1;
+        }
+
+        100% {
+            opacity: 0;
+        }
 }
 
 .menuhome__note {
