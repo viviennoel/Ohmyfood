@@ -61,17 +61,6 @@ article {
     box-shadow: rgb(128, 128, 128) 0px 0px 2px 2px;
 }
 
-#dot1 {
-    animation: appears 3s ease infinite;
-}
-
-#dot2 {
-    animation: appears 3s ease 1s infinite;
-}
-
-#dot3 {
-    animation: appears 3s ease 2s infinite;
-}
 
 @keyframes appears {
         0% {
@@ -948,47 +937,36 @@ footer a {
         .menudetail {
             margin: auto;
         }
-     
-     
-     
-     
-     
-     
+          
      .chic-left-entree {
     background: url(images/chic-left-entree.png) no-repeat;
     background-size: cover;
-    
-}
+    }
 
 .chic-right-entree {
     background: url(images/chic-right-entree.png) no-repeat;
     background-size: cover;
-    
-}
+    }
 
 .chic-left-main {
     background: url(images/chic-left-main.png) no-repeat;
     background-size: cover;
-    
-}
+    }
 
 .chic-right-main {
     background: url(images/chic-right-main.png) no-repeat;
     background-size: cover;
-    
-}
+    }
 
 .chic-left-dessert {
     background: url(images/chic-left-dessert.png) no-repeat;
     background-size: cover;
-    
-}
+    }
 
 .chic-right-dessert {
     background: url(images/chic-right-dessert.png) no-repeat;
     background-size: cover;
-    
-}
+    }
 
 .delice__mainwrapp .menudetail__header {
     width: 20vw;
@@ -1000,7 +978,6 @@ footer a {
 .delice-left-entree {
     background: url(images/delice-left-entree.png) no-repeat;
     background-size: cover;
-
 }
 
 .delice-right-entree {
@@ -1043,5 +1020,16 @@ footer a {
 .palette-right {
     background: url(images/palette-right.png) no-repeat;
     background-size: contain;
+}}
+    
+#dot1 {
+    animation: appears 3s ease infinite;
 }
+
+#dot2 {
+    animation: appears 3s ease 1s infinite;
+}
+
+#dot3 {
+    animation: appears 3s ease 2s infinite;
 }
