@@ -17,26 +17,28 @@
     /*VARIABLES*/
     /*BODY GENERAL*/
 .linemenu {
- width:100vw;   
+ width:100vw;
+ display: flex;
+ justify-content: space-evenly;
 }
 
 body {
     margin: 0 !important;
     font-size: 14px;
     background-color: rgb(255, 255, 255);
-    color: #699771;
+    color: #579c87;
     height: 100vh;
     vertical-align: central;
     font-family: Arial;
 }
 
 header {
-    background-color: #699771;
+    background-color: #579c87;
     vertical-align:middle;
     text-align: center;
     height:75px;
     padding-top:10px;
-    color:#ffd800;
+    color:#fbca46;
 
 }
 
@@ -62,7 +64,7 @@ article {
     height: 250px;
     font-family: Arial;
     font-weight: 900;
-    box-shadow: rgb(128, 128, 128) 0px 0px 2px 2px;
+    box-shadow: rgb(128, 128, 128,0.3) 0px 0px 4px;
 }
 
 
@@ -122,7 +124,7 @@ article {
 
 
 .menuhome__note {
-    background-color: #f3c5c5;
+    background-color: #fcdfdb;
     font-family: 'Satisfy', serif;
 }
 
@@ -141,7 +143,7 @@ article {
     }
 
 .menuhome__del {
-    background-color:#d2e1e4;
+    background-color:#f9f9f9;
     font-family:Parisienne, serif;
 }
 
@@ -159,7 +161,7 @@ article {
     }
 
 .menuhome__chi {
-    background-color:#fae4c5;
+    background-color:#fff5fe;
 }
 
 .menuhome__chi h2, p {
@@ -201,16 +203,17 @@ article {
 
 .chic__mainwrapp .chic__color {
     font-family: 'Alegreya', serif;
-    background-color:#f7e9cf;
+    background-color:#fff5fe;
 }
 
 .delice__mainwrapp .delice__color {
     font-family: 'Parisienne', serif;
-    background-color:#c0dae8;
+    background-color:#f9f9f9;
 }
 
 .palette__mainwrapp .palette__color {
     font-family: 'Courgette', serif;
+    background-color:#fdfffc;
 }
 
 .menuhome__note .menuhome__animation-content {
@@ -420,7 +423,7 @@ article {
 }
 
 article a {
-    color: #699771;
+    color: #579c87;
     text-decoration: none;
 
 }
@@ -436,26 +439,26 @@ article a {
 
 
 .button {
-    background-color: #699771;
+    background-color: #579c87;
     border-radius: 30px;
     padding: 5px 15px 5px 15px;
     font-family: Arial;
     font-weight: 400;
     font-size: 18px;
-    color:#ffd800;
+    color:#fbca46;
     margin-top: 50px;
     border:none;
 }
 
 .footer__button {
-    background-color: #699771;
+    background-color: #579c87;
     border-radius: 30px;
     padding: 10px;
     font-family: "Arial";
     font-weight: 900;
     font-size: 15px;
     font-weight:400;
-    color:#ffd800;
+    color:#fbca46;
     margin-top: 0;
     padding-top:18px;
     border: none;
@@ -466,7 +469,7 @@ article a {
 }
 
 footer {
-    background-color: #699771;
+    background-color: #579c87;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -503,7 +506,7 @@ footer a {
 }
 
 .noteenchantee__color {
-    background-color:#f5bdbd;
+    background-color:#fcdfdb;
 }
 
 .menudetail__presentation .fa-music::before {
@@ -871,7 +874,7 @@ footer a {
     }
  
      .menuhome__animation:hover .menuhome__animation-content {
-         animation: zoomin 1s ease-in-out 0.3s forwards;
+         animation: zoomincompu 1s ease-in-out 0.3s forwards;
         }
 
      .menuhome__animation-content {
@@ -1037,3 +1040,64 @@ footer a {
 #dot3 {
     animation: appears 3s ease 2s infinite;
 }
+
+
+    @keyframes zoomincompu {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 0.5;
+        }
+    }
+
+@-webkit-keyframes zoomincompu { 
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 0.5;
+        }}
+@-moz-keyframes zoomincompu { 
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 0.5;
+        }}
+@-o-keyframes zoomincompu { 
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            transform: scale(1.05);
+            opacity: 0.5;
+        }}
+
