@@ -878,7 +878,7 @@ footer a {
         }
 
      .menuhome__animation-content {
-          opacity: 0.3;
+          opacity: 1;
           animation: none;
         }
 }
