@@ -39,7 +39,11 @@ header {
     height:75px;
     padding-top:10px;
     color:#fbca46;
+}
 
+header a {
+    color:#fbca46;
+    text-decoration:none;
 }
 
 article {
