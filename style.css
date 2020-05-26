@@ -24,7 +24,7 @@
 
 body {
     margin: 0 !important;
-    font-size: 14px;
+    font-size: 18px;
     background-color: rgb(255, 255, 255);
     color: #579c87;
     height: 100vh;
@@ -501,7 +501,7 @@ footer a {
     padding:30px;
     text-align:center;
     width:100%;
-    box-shadow: rgb(128, 128, 128) 0 0 2px 2px;
+    box-shadow: rgb(128, 128, 128,0.5) 0 0 4px;
     color:#000000;
 }
 
@@ -577,9 +577,9 @@ footer a {
 
 .note__mainwrapp .menudetail__header-right {
     width: 20vw;
-    height: 10px;
+    height: 25px;
     background: url(images/note-right.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .chic__mainwrapp .menudetail__header {
@@ -815,7 +815,7 @@ footer a {
     position: absolute;
     border-bottom: solid 2px #000000;
     width: 20%;
-    right: 40%;
+    left: 40%;
     height: 10px;
     margin-bottom: 30px;
     opacity:0;
