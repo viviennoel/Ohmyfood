@@ -574,9 +574,9 @@ footer a {
 
 .note__mainwrapp .menudetail__header-left {
     width: 20vw;
-    height: 10px;
+    height: 25px;
     background: url(images/note-left.png) no-repeat;
-    background-size:cover;
+    background-size:contain;
 }
 
 .note__mainwrapp .menudetail__header-right {
