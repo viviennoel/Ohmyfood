@@ -596,31 +596,31 @@ footer a {
 .chic-left-entree {
     background: url(images/chic-left-entree.png) no-repeat;
     background-size: contain;
-    height:20px;
+    height:30px;
 }
 
 .chic-right-entree {
     background: url(images/chic-right-entree.png) no-repeat;
     background-size: contain;
-    height: 20px;
+    height: 30px;
 }
 
 .chic-left-main {
     background: url(images/chic-left-main.png) no-repeat;
     background-size: contain;
-    height: 20px;
+    height: 30px;
 }
 
 .chic-right-main {
     background: url(images/chic-right-main.png) no-repeat;
     background-size: contain;
-    height: 20px;
+    height: 30px;
 }
 
 .chic-left-dessert {
     background: url(images/chic-left-dessert.png) no-repeat;
     background-size: contain;
-    height: 20px;
+    height: 30px;
 }
 
 .chic-right-dessert {
@@ -951,32 +951,38 @@ footer a {
           
      .chic-left-entree {
     background: url(images/chic-left-entree.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+        height:30px;
     }
 
 .chic-right-entree {
     background: url(images/chic-right-entree.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+        height:30px;
     }
 
 .chic-left-main {
     background: url(images/chic-left-main.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+        height:30px;
     }
 
 .chic-right-main {
     background: url(images/chic-right-main.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+        height:30px;
     }
 
 .chic-left-dessert {
     background: url(images/chic-left-dessert.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+        height:30px;
     }
 
 .chic-right-dessert {
     background: url(images/chic-right-dessert.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+        height:30px;
     }
 
 .delice__mainwrapp .menudetail__header {
