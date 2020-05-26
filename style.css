@@ -953,36 +953,42 @@ footer a {
     background: url(images/chic-left-entree.png) no-repeat;
     background-size: contain;
         height:30px;
+         background-position: right;
     }
 
 .chic-right-entree {
     background: url(images/chic-right-entree.png) no-repeat;
     background-size: contain;
         height:30px;
+    background-position: right;
     }
 
 .chic-left-main {
     background: url(images/chic-left-main.png) no-repeat;
     background-size: contain;
         height:30px;
+    background-position: right;
     }
 
 .chic-right-main {
     background: url(images/chic-right-main.png) no-repeat;
     background-size: contain;
         height:30px;
+    background-position: right;
     }
 
 .chic-left-dessert {
     background: url(images/chic-left-dessert.png) no-repeat;
     background-size: contain;
         height:30px;
+    background-position: right;
     }
 
 .chic-right-dessert {
     background: url(images/chic-right-dessert.png) no-repeat;
     background-size: contain;
         height:30px;
+    background-position: right;
     }
 
 .delice__mainwrapp .menudetail__header {
